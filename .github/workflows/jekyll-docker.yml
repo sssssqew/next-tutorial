@@ -14,8 +14,8 @@ jobs:
 
       - name: Install and Build
         run: |
-          yarn install
-          yarn build && touch ./.next/.nojekyll
+          npm install
+          npm run build && touch ./.next/.nojekyll
 
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4
