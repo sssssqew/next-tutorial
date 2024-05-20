@@ -14,7 +14,7 @@ export default function Fetch(){
         <>
             <h1>fetch 페이지</h1>
             <p>서버 데이터: {data?.name}</p>
-            <a href={`${process.env.NEXT_PUBLIC_API_URL}/`}>홈페이지</a>
+            <a href={`/`}>홈페이지</a>
         </>
     )
 }
