@@ -1,7 +1,7 @@
 "use client"
 
 export default function SubIndex(){
-    console.log("환경변수: ", process.env.NEXT_PUBLIC_API_URL)
+    console.log("환경변수: ", process.env.VERCEL_URL)
     return (
         <>
             <h1>서브 홈페이지</h1>
