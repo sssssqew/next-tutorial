@@ -6,7 +6,7 @@ export default function About(){
     return (
         <>
             <h1>상세 페이지 ({id})</h1>
-            <a href="/">홈페이지</a>
+            <a href={`${process.env.NEXT_PUBLIC_API_URL}/`}>홈페이지</a>
         </>
     )
 }
