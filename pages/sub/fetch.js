@@ -9,9 +9,6 @@ export default function Fetch(){
             console.log(result)
             setData(result)
         })
-        .catch(e => {
-            console.log('fetch error: ', e)
-        })
     }, [])
     return (
         <>
