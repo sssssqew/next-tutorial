@@ -5,7 +5,7 @@ import styles from "./page.module.css";
 export default function Home() {
   return (
     <div>
-      <h1>홈 화면 $$$</h1>
+      <h1>홈 화면 $$$$$</h1>
       <ul>
         <li><a href='sub'>서브 홈</a></li>
         <li><a href='sub/about'>ABOUT</a></li>
