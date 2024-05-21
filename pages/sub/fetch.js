@@ -3,7 +3,7 @@ import { useEffect, useState } from "react"
 export default function Fetch(){
     const [data, setData] = useState(null)
     useEffect(() => {
-        fetch(process.env.PRODUCTION_URL +'api/hello')
+        fetch(process.env.NEXT_PUBLIC_API_URL +'api/hello')
         .then(res => res.json())
         .then(result => {
             console.log(result)
